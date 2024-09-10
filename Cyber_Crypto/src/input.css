@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #151937;
+}
+.crypto_text{
+    background: linear-gradient(to left, #fc8e51, #fa61f9);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+@media screen and (min-width:800px) {
+    .banner_text{
+        width: 60%;
+    }
+    
+}
+.sub_title{
+    @apply text-white text-opacity-50 text-lg
+}
+.slick-dots li button:before {
+    color: #fff;
+    opacity: 1;
+    font-size: 16px;
+}
+.slick-dots li.slick-active button:before {
+    color: #ff5ea3;
+    
+}
+.button-gardient{
+    background: linear-gradient(to left, #fc8e51, #fa61f9);
+    @apply py-3 px-8 text-xl text-white
+}
+.input_email{
+    background-color: unset;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.footer_title {
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+.footer_list_nav a {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    --tw-text-opacity: 1;
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- slick carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./output.css" rel="stylesheet">
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- (Optional) Use CSS or JS implementation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+        integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Cyber Crypto</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="bg-head fixed w-full z-20 top-0 start-0">
+                <div class="max-w-screen-2xl flex flex-wrap items-center justify-between p-4 ">
+                    <!-- logo header -->
+                    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse ">
+                        <span class=" text-white font-bold text-xl md:text-2xl xl:text-4xl">Cyber Crypto</span>
+                    </a>
+                    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 
+                focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">Get
+                            started</button>
+                        <button data-collapse-toggle="navbar-sticky" type="button"
+                            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            aria-controls="navbar-sticky" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 17 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+                        id="navbar-sticky">
+                        <ul
+                            class="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 "
+                                    aria-current="page">Home</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 text-white">Pages</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 
+                        md:p-0">Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <!-- banner -->
+        <section class="banner p-5 mt-20">
+            <div class="container">
+                <div
+                    class="banner_content md:flex md:flex-row-reverse md:items-center xl:flex-row-reverse xl:flex xl:items-center ">
+                    <div class="banner_image md:w-1/2 w-full mb-10 md:mb-0">
+                        <img class="w-full" src="./img/bank.png" alt class="w-2/3 md:w-full mx-auto">
+                    </div>
+                    <!-- text  -->
+                    <div class="banner_text space-y-10">
+                        <h1 class="text-5xl text-white font-bold xl:text-8xl ">Trsuted & Secure <span
+                                class="crypto_text">Crypto</span> Market Exchange</h1>
+                        <p class="text-white text-opacity-55 text-2xl xl:m-3">Already have a website? Try our hosting to
+                            alive it with industry-leading load times.</p>
+                        <div class="banner_action">
+                            <button
+                                class="btn_gradient text-white py-3 px-6 text-xl bg-gradient-orange-pink rounded-3xl">Start
+                                Trading</button>
+                        </div>
+                        <div class="banner_rating">
+                            <h2 class="text-white text-4xl block">A+ Rating</h2>
+                            <p class="text-white">Avg rating 4.8 makes us world most best apps.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- trusted -->
+        <section class="trusted p-10 md:p-20">
+            <div class="container justify-center items-center">
+                <div class="trust_title text-center">
+                    <h2 class="text-4xl md:text-6xl mb-3 leading-relaxed text-white">
+                        Trusted <span class="crypto_text">Cryptocurrency</span> Platform
+                    </h2>
+                    <p class="text-white text-opacity-50 text-lg md:text-xl">jano has a variety of features that make it
+                        the best
+                        place to start trading</p>
+                </div>
+                <div class="trust_content">
+                    <div class="mb-4 border-none border-gray-200 dark:border-gray-700">
+                        <ul class="flex flex-wrap -mb-px text-sm font-medium text-center justify-center"
+                            id="default-styled-tab" data-tabs-toggle="#default-styled-tab-content"
+                            data-tabs-active-classes="text-purple-600 hover:text-purple-600 dark:text-purple-500 dark:hover:text-purple-500 border-purple-600 dark:border-purple-500"
+                            data-tabs-inactive-classes="dark:border-transparent text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300"
+                            role="tablist">
+                            <li class="me-2" role="presentation">
+                                <button class="inline-block p-4 border-b-2 rounded-t-lg" id="profile-styled-tab"
+                                    data-tabs-target="#styled-profile" type="button" role="tab" aria-controls="profile"
+                                    aria-selected="false">Profile</button>
+                            </li>
+                            <li role="presentation">
+                                <button
+                                    class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                                    id="contacts-styled-tab" data-tabs-target="#styled-contacts" type="button"
+                                    role="tab" aria-controls="contacts" aria-selected="false">Contacts</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="default-styled-tab-content">
+                        <div class="hidden p-4 rounded-lg" id="styled-profile" role="tabpanel"
+                            aria-labelledby="profile-tab">
+                            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
+                                <div
+                                    class="trust_item p-8 rounded-lg flex justify-center items-center flex-col text-center space-y-4 bg-white bg-opacity-5">
+                                    <img src="./img/trusted_1.png" alt>
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text-white text-base text-opacity-50">Convert data noise intelligent for
+                                        quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right text-white text-4xl"></i>
+                                </div>
+                                <div
+                                    class="trust_item p-8 rounded-lg flex flex-wrap justify-center items-center flex-col text-center space-y-4 bg-white bg-opacity-5">
+                                    <img src="./img/trusted_1.png" alt>
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text-white text-base text-opacity-50">Convert data noise intelligent for
+                                        quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right text-white text-4xl"></i>
+                                </div>
+                                <div
+                                    class="trust_item p-8 rounded-lg flex flex-wrap justify-center items-center flex-col text-center space-y-4 bg-white bg-opacity-5">
+                                    <img src="./img/trusted_1.png" alt>
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text-white text-base text-opacity-50">Convert data noise intelligent for
+                                        quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right text-white text-4xl"></i>
+                                </div>
+                                <div
+                                    class="trust_item p-8 rounded-lg flex flex-wrap justify-center items-center flex-col text-center space-y-4 bg-white bg-opacity-5">
+                                    <img src="./img/trusted_1.png" alt>
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text-white text-base text-opacity-50">Convert data noise intelligent for
+                                        quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right text-white text-4xl"></i>
+                                </div>
+                                <div
+                                    class="trust_item p-8 rounded-lg flex flex-wrap justify-center items-center flex-col text-center space-y-4 bg-white bg-opacity-5">
+                                    <img src="./img/trusted_1.png" alt>
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text-white text-base text-opacity-50">Convert data noise intelligent for
+                                        quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right text-white text-4xl"></i>
+                                </div>
+                                <div
+                                    class="trust_item p-8 rounded-lg flex flex-wrap justify-center items-center flex-col text-center space-y-4 bg-white bg-opacity-5">
+                                    <img src="./img/trusted_1.png" alt>
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text-white text-base text-opacity-50">Convert data noise intelligent for
+                                        quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right text-white text-4xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden p-4 rounded-lg" id="styled-contacts" role="tabpanel"
+                            aria-labelledby="contacts-tab">
+                            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
+                                <div
+                                    class="trust_item p-8 rounded-lg flex justify-center items-center flex-col text-center space-y-4 bg-white bg-opacity-5">
+                                    <img src="./img/trusted_1.png" alt>
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text-white text-base text-opacity-50">Convert data noise intelligent for
+                                        quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right text-white text-4xl"></i>
+                                </div>
+                                <div
+                                    class="trust_item p-8 rounded-lg flex flex-wrap justify-center items-center flex-col text-center space-y-4 bg-white bg-opacity-5">
+                                    <img src="./img/trusted_1.png" alt>
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text-white text-base text-opacity-50">Convert data noise intelligent for
+                                        quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right text-white text-4xl"></i>
+                                </div>
+                                <div
+                                    class="trust_item p-8 rounded-lg flex flex-wrap justify-center items-center flex-col text-center space-y-4 bg-white bg-opacity-5">
+                                    <img src="./img/trusted_1.png" alt>
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text-white text-base text-opacity-50">Convert data noise intelligent for
+                                        quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right text-white text-4xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- feedback -->
+        <section class="feed_back py-10 md:py-20 px-5 sm:px-0">
+            <div class="feedback">
+                <div class="feedback_title items-center text-center">
+                    <p class="sub_title">Feedback</p>
+                    <h2 class="text-6xl text-white">Trusted by <span class="crypto_text">Client</span></h2>
+                </div>
+            </div>
+            <div class="feedback_content px-1">
+                <div class="feekback_carousel text-white">
+                    <div class="p-5">
+                        <div class="feekback_item py-10 px-14 bg-white bg-opacity-20 rounded-lg mt-10">
+                            <img src="./img/aven.png" alt>
+                            <div class="rate flex items-center text-yellow-300 mt-3 mb-5">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-2xl mb-5">Certainly from my perspective quis been a great success with due WP
+                                giving us that
+                                enterprises level
+                                assured quality.</p>
+                            <p class="cost text-lg font-semibold">
+                                Qulaity & Cost: <span class="sub_title">15.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <div class="feekback_item py-10 px-14 bg-white bg-opacity-20 rounded-lg mt-10">
+                            <img src="./img/aven.png" alt>
+                            <div class="rate flex items-center text-yellow-300 mt-3 mb-5">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-2xl mb-5">Certainly from my perspective quis been a great success with due WP
+                                giving us that
+                                enterprises level
+                                assured quality.</p>
+                            <p class="cost text-lg font-semibold">
+                                Qulaity & Cost: <span class="sub_title">15.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <div class="feekback_item py-10 px-14 bg-white bg-opacity-20 rounded-lg mt-10">
+                            <img src="./img/aven.png" alt>
+                            <div class="rate flex items-center text-yellow-300 mt-3 mb-5">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-2xl mb-5">Certainly from my perspective quis been a great success with due WP
+                                giving us that
+                                enterprises level
+                                assured quality.</p>
+                            <p class="cost text-lg font-semibold">
+                                Qulaity & Cost: <span class="sub_title">15.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <div class="feekback_item py-10 px-14 bg-white bg-opacity-20 rounded-lg mt-10">
+                            <img src="./img/aven.png" alt>
+                            <div class="rate flex items-center text-yellow-300 mt-3 mb-5">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-2xl mb-5">Certainly from my perspective quis been a great success with due WP
+                                giving us that
+                                enterprises level
+                                assured quality.</p>
+                            <p class="cost text-lg font-semibold">
+                                Qulaity & Cost: <span class="sub_title">15.00</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <section class="py-10 md:py-20 px-5 sm:px-0">
+            <div class="container">
+                <footer class="footer_top bg-white bg-opacity-5 py-10 px-5 md:px-20 rounded-2xl flex flex-wrap items-baseline space-y-5 md:space-y-0">
+                    <div class="w-full md:w-2/3 lg:w-2/3 xl:w-2/5">
+                        <h3 class="crypto_text text-4xl font-bold mb-8">Jano.</h3>
+                        <p class="text-xl text-white">Join our newsletter</p>
+                        <div class="p-2 bg-white bg-opacity-5 rounded-lg my-3 max-w-96 flex items-center justify-between">
+                            <input type="text" placeholder="Enter email" class="input_email flex-1">
+                            <button class="button-gardient !rounded-md">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="w-1/2 md:w-1/3 lg:w-1/6 xl:w-1/5 text-white">
+                        <h3 class="footer_title">Links</h3>
+                        <ul class="footer_list_nav text-white text-opacity-50">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Demo the product</a></li>
+                        </ul>
+                    </div>
+                    <div class="w-1/2 md:w-1/2 lg:w-1/6 xl:w-1/5 text-white">
+                        <h3 class="footer_title">Legal</h3>
+                        <ul class="footer_list_nav text-white text-opacity-50">
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Terms &amp; conditions</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Cookie policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2 xl:w-1/5 text-white">
+                        <h3 class="footer_title">Products</h3>
+                        <ul class="footer_list_nav text-white text-opacity-50">
+                            <li><a href="#">Take the tour</a></li>
+                            <li><a href="#">Live chat</a></li>
+                            <li><a href="#">Self-service</a></li>
+                            <li><a href="#">Social</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Jano Reviews</a></li>
+                        </ul>
+                    </div>
+                </footer>
+
+            </div>
+        </section>
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+<script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+
+<!-- slick js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"
+    integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $(document).ready(function () {
+        $('.feekback_carousel').slick({
+            infinite: true,
+            slidesToShow: 3,
+            dots: true,
+            mobileFirst: true,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 0,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 1280,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+            ]
+        });
+    });
+</script>
+
+</html>
